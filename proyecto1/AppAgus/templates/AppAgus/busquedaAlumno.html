@@ -1,0 +1,12 @@
+{% extends 'AppAgus/inicio.html' %}
+
+{% block content %}
+
+<h1>Buscar Alumno</h1>
+
+<form action="{% url 'buscar' %}" method="GET">
+    <input type="text" name="query" placeholder="Ingrese un nombre o apellido">
+    <button type="submit">Buscar</button>
+</form>
+
+{% endblock %}

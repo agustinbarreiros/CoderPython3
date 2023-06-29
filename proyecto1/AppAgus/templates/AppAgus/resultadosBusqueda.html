@@ -1,0 +1,23 @@
+{% extends 'AppAgus/inicio.html' %}
+
+{% block content %}
+<h1>Resultados de búsqueda</h1>
+
+{% if query %}
+<p>Resultados para: {{ query }}</p>
+{% else %}
+<p>No se ingresó ninguna consulta.</p>
+{% endif %}
+
+{% if alumnos %}
+<h2>Alumnos encontrados:</h2>
+<ul>
+    {% for alumno in alumnos %}
+    <li>{{ alumno.nombre }} {{ alumno.apellido }} - {{ alumno.email }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No se encontraron alumnos.</p>
+{% endif %}
+
+{% endblock %}
