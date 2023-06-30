@@ -2,10 +2,7 @@ Este proyecto implementa una aplicación web utilizando Django.
 
 ## Funcionalidades
 
-- Registro de usuarios
-- Inicio de sesión de usuarios
-- Creación de clases
-- Registro de alumnos
+- Creación de clases, alumnos y profesores
 - Búsqueda de alumnos
 
 
@@ -17,10 +14,8 @@ Sigue los siguientes pasos para probar la aplicación:
 2. Crea la base de datos y aplica las migraciones.
 3. Inicia el servidor de desarrollo.
 4. Navega a la página de inicio en tu navegador.
-5. Regístrate como nuevo usuario.
-6. Inicia sesión con tus credenciales.
-7. Crea algunas clases y registra algunos alumnos.
-8. Utiliza el formulario de búsqueda para encontrar alumnos.
+5. Crea algunas clases y registra algunos alumnos.
+6. Utiliza el formulario de búsqueda para encontrar alumnos.
 
 
 ## Requisitos del Sistema
