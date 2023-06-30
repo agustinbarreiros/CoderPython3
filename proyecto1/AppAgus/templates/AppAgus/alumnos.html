@@ -1,8 +1,10 @@
 {% extends "AppAgus/inicio.html" %}
     {% load static %}
     
-    {% block contenidoQueCambia %} 
+    {% block content %} 
         <h1>Alumnos</h1>
-        <p>Hola soy estudiante jeje</p>
+        <li class="nav-item"><a class="nav-link" href="{% url 'crear_alumno'%}">Registrar Alumno</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'buscar_alumno'%}">Buscar Alumnos</a></li>
+
     {% endblock %}    
     
